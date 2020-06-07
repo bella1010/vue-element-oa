@@ -1,13 +1,20 @@
 <template>
-    
+  <div>
+    <p>index</p>
+    <p>
+      <work-flow></work-flow>
+    </p>
+  </div>
 </template>
 
 <script>
-    export default {
-        name: "index"
-    }
+import WorkFlow from '../components/WorkFlow.vue'
+export default {
+  name: 'index',
+  components: {
+    WorkFlow
+  }
+}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
