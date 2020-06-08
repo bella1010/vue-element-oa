@@ -1,11 +1,11 @@
-import Main from '@/components/main'
+import Home from '@/pages/Index'
 
 export default[
   {
     path: '/',
-    name: 'index',
+    name: 'home',
     redirect: '/index',
-    component: Main,
+    component: Home,
     meta: {
       title: '首页',
     }
